@@ -51,9 +51,9 @@ ul li{
 .sidebar{
   position: absolute;
   margin: 0 auto;
-  top:20px;
-  margin-left: 340px;
-  margin-right: 379px;
+  top:30px;
+  margin-left: 300px;
+  margin-right: 349px;
   
 }
 .nav_item{
@@ -72,6 +72,10 @@ ul li{
   color: #fff;
   height: 9px;
   letter-spacing: 4px;
+ 
+}
+.nav_icon,.nav_title{
+  display: inline-block;
 }
 
 .contacts{
@@ -258,6 +262,7 @@ ul li{
   line-height: 1.5;
   letter-spacing: normal;
    color: #656464;
+   margin-bottom: 70px;
   }
   .top_news_pic{
     margin-bottom: 20px;
@@ -280,10 +285,14 @@ ul li{
   letter-spacing: normal;
   color: #221f1f;
  }
+ .pagination_button,.pagination_button_next{
+   margin-right: 5px;
+ }
   .pagination_item{
     display: inline-block;
   vertical-align: middle;
   margin: 0;
+  margin-right: 7px;
   }
   
 .pagination_link,.pagination_button_prew,.pagination_button_next{
@@ -298,6 +307,12 @@ letter-spacing: normal;
 color: #221f1f
 
 }
+
+.footer{
+font-family: OpenSans;
+  color: #ffffff;
+  background: #131415;
+  height: 77px;}
 /*
 .contacts{
   position: absolute;
