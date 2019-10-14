@@ -1,13 +1,266 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/style.css">
-  <title>Document</title>
+  <title>Main Page</title>
 </head>
 <body>
-  <h1>Ура! Мы в ветке week_2!</h1>
+  <div class="wrapper">
+    <!-----------------Ш А П К А----------------->
+    <header class="header">   
+                   <!--логотип-->
+      <a href="/pages/inner/" class="logo">   
+        <img src="../../img/logo.png" class="logo_pic" alt="Логотип спортзала">
+      </a>
+                  <!-- меню бар -->
+      <aside class="sidebar">
+        <nav class="nav">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#" class="nav_link">
+                <img src="" alt="" class="nav_icon">
+                <div class="nav_title">ГЛАВНАЯ</div>
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#" class="nav_link">
+                <img src="" alt="" class="nav_icon">
+                <div class="nav_title">ОТЗЫВЫ</div>
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#" class="nav_link">
+                <img src="" alt="" class="nav_icon">
+                <div class="nav_title">УСЛУГИ</div>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+                   <!--контакты-->
+      <div class="contacts">
+        <a href="tel:+78000039210" class="contacts_phone">8 (800) 00-392-10</a>
+        <div class="contacts_hours" title="   ПН-ВС: 09:00-20:00
+        ОБЕД: 14:00-14:30">График работы</div>
+      </div>
+    </header>
+  <!-----------------К О Н Т Е Н Т----------------->
+    <div class="pagecontent">
+                <!-- ОПИСАНИЕ -->
+      <div class="main_desc">
+        <h1 class="main_desc_slogan">JUST DO IT</h1>
+        <img src="/img/run.jpg" class="main_desc_img" alt="Бегущий человек">
+                    <!--особенности-->
+        <div class="main_desc_features">
+          <h3 class="features_text">ОСОБЕННОСТИ</h3>
+          <ul class="features_type">
+            <li>    <!--уникальность-->
+              <ul class="uniq">
+                <li>
+                  <img src="../../img/logo_star.png" class="logo_uniq" alt="Логотип уникальности">
+                </li>
+                <li>
+                  <h4 class="text_uniq">УНИКАЛЬНОСТЬ</h4>
+                </li>
+                <li>
+                    <p class="text_for_uniq">Мы делаем все, для вашего комфорта</p>
+                </li>
+                <li>
+                  <ul class="about_uniq">
+                    <li>Питание включено</li>
+                    <li>Багаж (5 кг)</li>
+                    <li>Душ/баня</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>            
+            <li>    <!--премиум-->
+              <ul class="premium">
+                <li>
+                  <img src="../../img/logo_star.png" class="logo_premium" alt="Логотип премиум-класса">
+                </li>
+                <li>
+                  <h4 class="text_premium">ПРЕМИУМ-КЛАСС</h4>
+                </li>
+                <li>
+                    <p class="text_for_premium">Наш зал оборудован тренажерами А-класса</p>
+                </li>
+                <li>
+                  <ul class="about_premium">
+                    <li>Качество</li>
+                    <li>Продуктивность</li>
+                    <li>Результат</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>    <!--личный тренер-->
+              <ul class="trainer">
+                <li>
+                  <img src="/img/logo_star.png" class="logo_trainer" alt="Логотип Личный тренер">
+                </li>
+                <li>
+                  <h4 class="text_trainer">ЛИЧНЫЙ ТРЕНЕР</h4>
+                </li>
+                <li>
+                    <p class="text_for_trainer">Тренер сделает все для вашего результата</p>
+                </li>
+                <li>
+                  <ul class="about_trainer">
+                    <li>Программа</li>
+                    <li>Питание</li>
+                    <li>План тренировок</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>            
+          </ul>
+        </div>
+      </div>
+                <!--ВСЕ НОВОСТИ-->
+      <div class="all_news">   
+        <h2 class="text_last_news">ПОСЛЕДНИЕ НОВОСТИ</h2>
+                   <!--последние новости-->
+        <div class="last_news">
+          <ul class="news_list">
+            <li class="news_item">
+              <img src="" alt="" class="news_pic">
+              <div class="news_desc">
+                <div class="news_date">12.10.2016</div>
+                <h4 class="news_name">Похудение с помощью бодибилдинга!</h4>
+                <p class="news_text">Вдыхание одного литра кислорода эквивалентно "сжиганию" 5 каллорий,
+                  однако в минуту при самом высоком темпе движений атлет способен вдохнуть
+                  не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.
+                </p>
+              </div>
+            </li>
+            <li class="news_item">
+              <img src="" alt="" class="news_pic">
+              <div class="news_desc">
+                <div class="news_date">01.02.2016</div>
+                <h4 class="news_name">Заражай друзей, получай призы!</h4>
+                <p class="news_text">Дополнительно для Вас: польлзование сауной и проедоставление
+                  средств личной гигиены, пользование баром, таблица замеров, дружеская
+                  атмосфера и постоянная поддержка. Мы заботимся о вашем комфорте
+                  и предлагаем испытать это уже сегодня!
+                </p>
+              </div>
+            </li>
+            <li class="news_item">
+              <img src="" alt="" class="news_pic">
+              <div class="news_desc">
+                <div class="news_date">22.12.2015</div>
+                <h4 class="news_name">Фрилансер? Выпрями спину!</h4>
+                <p class="news_text">Создайте рабочее место под себя. Вот этот инструмент поможет
+                  определить, что подходит именно вам и вашему организму. Используйте
+                  специальную подставку для ноутбука, если вы проводите за ним больше
+                  2 часов. Настройте высоку и яркость монитора!
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+                <!--топ новости-->
+        <div class="top_news">
+          <h4 class="text_top_news">Топ новостей</h4>
+          <h5 class="month_top_news">За сентябрь</h5>
+          <ul class="top_news_pic">
+            <li class="top_news_pic">
+              <a href="/" class="top_news_pic">
+                <img src="/" alt="Первая из топ новостей" title="Первая из топ новостей">
+              </a>
+            </li>
+            <li class="top_news_pic">
+              <a href="/" class="top_news_pic">
+                <img src="/" alt="Вторая из топ новостей" title="Вторая из топ новостей">
+              </a>
+            </li>
+            <li class="top_news_pic">
+               <a href="/" class="top_news_pic">
+                <img src="/" alt="Третяя из топ новостей" title="Третяя из топ новостей">
+              </a>
+            </li>
+          </ul>
+        </div>
+                 <!--пегинация-->
+        <div class="pagination">
+          <div class="pagination_display">
+            Страница 1 из 7
+          </div>
+          <div class="pagination_pager">
+            <a href="#" class="pagination_button_prew">&lt</a>
+            <ul class="pagination_list">
+              <li class="pagination_item">
+                <a href="#" class="pagination_link">1</a>
+              </li>
+              <li class="pagination_item">
+                <a href="#" class="pagination_link">2</a>
+              </li>
+              <li class="pagination_item">
+                <a href="#" class="pagination_link">3</a>
+              </li>
+              <li class="pagination_item">
+                <a href="#" class="pagination_link">4</a>
+              </li>
+              <li class="pagination_item">
+                <a href="#" class="pagination_link">5</a>
+              </li>
+              <li class="pagination_item">
+                <a href="#" class="pagination_link">6</a>
+              </li>
+              <li class="pagination_item">
+                <a href="#" class="pagination_link">7</a>
+              </li>
+            </ul>
+            <a href="#" class="pagination_button_next">&gt</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------Ф У Т Е Р----------------->
+    <footer class="footer">
+      <p class="footer_with_love">Сделано с любовью и старанием
+        на курсе "HTML+CSS" <a href="http://loftschool.com" 
+        class="footer_loftschool" target="_blank">в LoftScool</a>. 
+        Автор работы: <a href="http://loftschool.com" class="footer_author" target="_blank">
+        Прохладов Вадим</a>.
+      </p>
+      <div class="footer_logo">
+        <a href="/pages/inner/" class="footer_logo">АФРОДИТА</a>
+      </div>
+      <div class="footer_netw">
+        <h6 class="footer_our-netw">Наши социальные сети</h6>
+        <ul class="footer_netw_list">
+          <li class="footer_netw_item">
+            <a href="https://vk.com" class="footer_netw_item" target="_blank">
+              <img src="" alt="В контакте" class="footer_netw_vk">            
+            </a>
+          </li>
+          <li class="footer_netw_item">
+            <a href="https://facebook.com" class="footer_netw_item" target="_blank">
+              <img src="" alt="Facebook" class="footer_netw_fb">            
+            </a>
+          </li>
+          <li class="footer_netw_item">
+            <a href="https://google.com" class="footer_netw_item" target="_blank">
+              <img src="" alt="Google" class="footer_netw_google">            
+            </a>
+          </li>
+          <li class="footer_netw_item">
+            <a href="https://twitter.com" class="footer_netw_item" target="_blank">
+              <img src="" alt="Twitter" class="footer_netw_tw">            
+            </a>
+          </li>
+          <li class="footer_netw_item">
+            <a href="https://instagram.com" class="footer_netw_item" target="_blank">
+              <img src="" alt="Instagram" class="footer_netw_inst">            
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
