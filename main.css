@@ -216,6 +216,31 @@ ul li{
   .news_text{
     padding-top: 30px;
   }
+  .text_top_news{
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 2.4px;
+  text-align: center;
+  color: #221f1f;
+  }
+  .month_top_news{
+    font-family: OpenSans;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 2.4px;
+  text-align: center;
+  color:  rgba(34, 31,31,.5);
+  }
+  .top_news_pic{
+    margin-bottom: 20px;
+  }
 /*
 .contacts{
   position: absolute;
