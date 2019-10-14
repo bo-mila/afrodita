@@ -126,6 +126,7 @@ ul li{
   }
   .features_type_item{
     display: inline-block;
+    margin-right: 30px;
   }
   
 .icon_radius{
@@ -157,6 +158,14 @@ ul li{
   letter-spacing: normal;
  word-wrap: break-word;
   width: 195px;
+}
+.uniq_about{
+  padding-left: 35px;
+}
+.uniq_about_item{
+  display: list-item;
+  list-style-type: disc;
+  text-align: left;
 }
 .logo_uniq{
   margin-bottom: 40px;
