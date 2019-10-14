@@ -173,10 +173,14 @@ ul li{
   text-align: center;
   color: #221f1f;
 }
-.news_last{
+.news_last,.top_news{
   display: inline-block;
+  vertical-align: top;
 }
-
+.news_item{
+  display: block;
+  width: 921px;
+}
 
 
 /*
