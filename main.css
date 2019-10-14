@@ -262,7 +262,11 @@ ul li{
   .top_news_pic{
     margin-bottom: 20px;
   }
-  .pagination_display,.pagination_pager{
+  .pagination_display{
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .pagination_pager{
     display: inline-block;
   }
  .pagination_button_prew,.pagination_list,.pagination_button_next{
