@@ -313,6 +313,65 @@ font-family: OpenSans;
   color: #ffffff;
   background: #131415;
   height: 77px;}
+
+  .footer_container{
+    height: 77px;
+  position: relative;
+  width: 1070px;
+  }
+  .footer_with{
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 240px;
+    word-wrap: break-word;
+  }
+.footer_with_love{
+  margin: 0;
+  text-decoration: none;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  width: 240px;
+}
+.footer_loftschool{
+  color: #fff;
+}
+.footer_author{
+  color: #fff;
+  text-decoration: none;
+}
+.footername{
+  position: absolute;
+  margin: 0 auto;
+  bottom: 30px;
+  margin-left: 470px;
+  margin-right: 470px;}
+  .footername_ref{
+ text-decoration: none;
+ color:#f89513;
+ font-family: GoraFree;
+ font-size: 20px;
+ font-weight: normal;
+ font-style: normal;
+ letter-spacing: 3px;
+ font-stretch: normal;
+ width: 160px;
+}
+.footer_netw{
+
+  position: absolute;
+  right: 0;
+  bottom: 16px;
+}
+.footer_netw_item{
+  display: inline;
+}
+
 /*
 .contacts{
   position: absolute;
