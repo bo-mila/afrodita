@@ -161,6 +161,24 @@ ul li{
 .logo_uniq{
   margin-bottom: 40px;
 }
+
+.news_last_text{
+  font-family: OpenSans;
+  font-size: 49px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.78;
+  letter-spacing: 1.47px;
+  text-align: center;
+  color: #221f1f;
+}
+.news_last{
+  display: inline-block;
+}
+
+
+
 /*
 .contacts{
   position: absolute;
