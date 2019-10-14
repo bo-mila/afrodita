@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+
+@font-face {
+  font-family: 'gora_freeregular';
+  src: url('gora-free-webfont.woff2') format('woff2'),
+       url('gora-free-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+/*.wrapper{
+  width: 1100px;
+  height: 2473px;
+  background-color: #ffffff;
+}*/
+body{
+  margin: 0px;
+}
+.header{
+  background: #131415;
+}
+.container{
+  margin: 0 auto;
+  width: 1060px;
+  height: 77px;
+  position: relative;
+}
+
+.headername{
+  position: absolute;
+  top: 31px;
+  left: 0;
+  bottom: 28px;
+  }
+.headername_ref{
+ text-decoration: none;
+ color:#f89513;
+ font-family: GoraFree;
+ font-size: 20px;
+ font-weight: normal;
+ font-style: normal;
+ letter-spacing: 2px;
+ font-stretch: normal;
+ width: 160px;
+}
+.sidebar{
+  position: absolute;
+  margin: 0 auto;
+  margin-left: 380px;
+  margin-right: 379px;
+}
+.contacts{
+  position: absolute;
+  right: 0;
+  top: 22px;
+}
+.contacts_phone{
+  color: #fff;
+  font-family: OpenSans;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  }
+.contacts_hours{
+  color: rgba(248, 149, 19, 0.7);
+  text-align: right;
+}
+
+/*
+.contacts{
+  position: absolute;
+  right: 21;
+  top: 21;
+  width: 1100px;
+  height: 77px;
+  }*/
