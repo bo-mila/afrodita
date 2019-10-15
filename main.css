@@ -1,13 +1,14 @@
 @font-face {
-  font-family: 'gora_freeregular';
-  src: url('gora-free-webfont.woff2') format('woff2'),
-       url('gora-free-webfont.woff') format('woff');
+  font-family: GoraFree;
+  src: url('/fonts/gora-free-webfont.woff2') format('woff2'),
+       url('./fonts/gora-free-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700&display=swap&subset=cyrillic,cyrillic-ext');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
 body{
-
+  
   margin: 0px;
 }
 ul{
@@ -40,7 +41,7 @@ ul li{
 .headername_ref{
  text-decoration: none;
  color:#f89513;
- font-family: GoraFree;
+ font-family: GoraFree, sans-serif;
  font-size: 20px;
  font-weight: normal;
  font-style: normal;
@@ -65,7 +66,7 @@ ul li{
 }
   .nav_link{
   text-decoration: none;
-  font-family: OpenSans;
+  font-family: 'Open Sans';
   font-size: 9px;
   font-weight: 400;
   font-style: normal;
@@ -86,7 +87,7 @@ ul li{
 }
 .contacts_phone{
   color: #fff;
-  font-family: OpenSans;
+  font-family: 'Open Sans';
   font-size: 21px;
   font-weight: bold;
   font-style: normal;
@@ -108,7 +109,7 @@ ul li{
     text-align: center;;
   }
 .main_desc_features{
-  font-family: OpenSans;
+  font-family: 'Open Sans';
   color: #ffffff;
   background: #131415;
   height: 570px;
@@ -189,7 +190,7 @@ ul li{
 }
 
 .news_last_text{
-  font-family: OpenSans;
+  font-family: 'Open Sans';
   font-size: 49px;
   font-weight: bold;
   font-style: normal;
@@ -207,10 +208,7 @@ ul li{
   display: block;
   width: 921px;
  }
-.news_desc{
-  display: inline-block;
-  width: 685px;
-}
+
 .news_pic{
   display: inline-block;
   margin-left: 20px;
@@ -221,16 +219,17 @@ ul li{
 .news_desc{
   display: inline-block;
   vertical-align: top;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 18px;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.67;
+  line-height: 21px;
   letter-spacing: normal;
   text-align: left;
   color: #221f1f;
   word-wrap: break-word;
   margin-bottom: 60px;
+  width: 685px;
 }
 .news_date{
   color: rgba(34, 31,31,.5);
@@ -238,12 +237,14 @@ ul li{
 }
 .news_name{
   font-weight: bold;
+  
   }
   .news_text{
+    line-height: 30px;
     padding-top: 30px;
   }
   .text_top_news{
-  font-family: OpenSans;
+  font-family: 'Open Sans';
   font-size: 16px;
   font-weight: bold;
   font-style: normal;
@@ -254,7 +255,7 @@ ul li{
   color: #221f1f;
   }
   .month_top_news{
-    font-family: OpenSans;
+    font-family: 'Open Sans';
   font-size: 12px;
   font-weight: bold;
   font-style: normal;
@@ -267,7 +268,7 @@ ul li{
   .pagination{
     display: block;
   text-align: center;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-weight: 300;
   font-style: normal;
@@ -289,7 +290,7 @@ ul li{
   }
  .pagination_button_prew,.pagination_list,.pagination_button_next{
    display: inline-block;
-   font-family: Roboto;
+   font-family: 'Roboto';
   font-size: 16px;
   font-weight: 600;
   font-style: normal;
@@ -322,7 +323,7 @@ color: #221f1f
 }
 
 .footer{
-font-family: OpenSans;
+font-family: 'Open Sans';
   color: #ffffff;
   background: #131415;
   height: 77px;}
@@ -342,7 +343,7 @@ font-family: OpenSans;
 .footer_with_love{
   margin: 0;
   text-decoration: none;
-  font-family: OpenSans;
+  font-family:'Open Sans';
   font-size: 14px;
   font-weight: lighter;
   font-style: normal;
@@ -382,7 +383,7 @@ font-family: OpenSans;
   top: 10px;
 }
 .footer_netw_our{
-font-family: OpenSans;
+font-family: 'Open Sans';
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
@@ -398,12 +399,3 @@ font-family: OpenSans;
   display: inline-block;
   margin-right: 5px;
 }
-
-/*
-.contacts{
-  position: absolute;
-  right: 21;
-  top: 21;
-  width: 1100px;
-  height: 77px;
-  }*/
