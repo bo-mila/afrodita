@@ -128,19 +128,29 @@ ul li{
   background: #131415;
   height: 570px;
 }
+.features{
+  margin: 0 auto;
+  width: 780px;
+}
 .features_text{
-  vertical-align: middle;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 0 auto;
   padding-top:66px;
   font-size: 49px;
   font-weight: bold;
   font-style: normal;
-  font-stretch: normal;
-  line-height: 0.78;
-  letter-spacing: 2px;
-  margin-bottom: 63px;
+   letter-spacing: 2px;
+  margin-bottom: 58px;
+  }
+  .features_type{
+    margin: 0;
   }
   .features_type_item{
     display: inline-block;
+    width: 250px;
     }
   
 .icon_radius{
@@ -161,29 +171,44 @@ ul li{
   transform: translate(-50%,-50%);
 }
 .uniq{
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  left: 50%;
+  transform: translate(-50%);
   font-size: 11px;
   font-weight: 800;
   font-style: normal;
-  font-stretch: normal;
   letter-spacing: 2.64px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 .uniq_text{
+  position: relative;
+  display: block;
+  margin: 0;
+  text-align: center;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
-  font-stretch: normal;
-  line-height: 1.67;
   letter-spacing: normal;
- word-wrap: break-word;
-  width: 195px;
+  word-wrap: break-word;
+  padding-left: 20px;
+  padding-right: 20px;;
+  line-height: 1.67;
 }
 .uniq_about{
-  padding-left: 35px;
+  padding-left: 50px;
 }
 .uniq_about_item{
   display: list-item;
   list-style-type: disc;
   text-align: left;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.67;
 }
 
 .news_last_text{
