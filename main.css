@@ -210,7 +210,11 @@ ul li{
   letter-spacing: normal;
   line-height: 1.67;
 }
-
+.news{
+  width: 1160px;
+  margin: 0 auto;
+  position: relative;
+}
 .news_last_text{
   font-family: 'Open Sans';
   font-size: 49px;
@@ -222,33 +226,23 @@ ul li{
   text-align: center;
   color: #221f1f;
 }
-.news_last,.top_news{
+.news_last{
   display: inline-block;
+  width: 990px;
   vertical-align: top;
+  
 }
 .news_item{
-  display: block;
-  width: 921px;
- }
-/*<div style="background: url('Ссылка на картинку'); 
-width: 244px;
- height: 244px; 
- border: 5px solid #CCA5D1; 
- border-radius: 160px 160px 160px 160px; 
- - webkit-border-radius: 160px 160px 160px 160px;
-  -moz-border-radius: 160px 160px 160px 160px;"></div>
-*/
-.news_pic{
-  position: relative;
-  display: block;
-  
-  margin: 0 auto;
-
-
+  height: 220px;
+  }
+.news_pic{ 
+  display: inline-block;
+  vertical-align: top;
+  width: 160px;
 }
 .news_desc{
   display: inline-block;
-  vertical-align: top;
+ vertical-align: top;
   font-family: 'Roboto';
   font-size: 18px;
   font-style: normal;
@@ -258,21 +252,34 @@ width: 244px;
   text-align: left;
   color: #221f1f;
   word-wrap: break-word;
-  margin-bottom: 60px;
-  width: 685px;
+  width: 740px;
+  padding-left: 20px;
+  padding-right: 27px;
 }
 .news_date{
+  display: block;
   color: rgba(34, 31,31,.5);
   font-weight: normal;
+ 
+  
 }
 .news_name{
+  display: block;
+ 
   font-weight: bold;
   
   }
   .news_text{
+    display: block;
+ 
     line-height: 30px;
-    padding-top: 30px;
   }
+  .top_news{
+    display: inline-block;
+    width: 160;
+    vertical-align: top;
+    
+    }
   .text_top_news{
   font-family: 'Open Sans';
   font-size: 16px;
@@ -295,6 +302,7 @@ width: 244px;
   text-align: center;
   color:  rgba(34, 31,31,.5);
   }
+  
   .pagination{
     display: block;
   text-align: center;
@@ -308,9 +316,7 @@ width: 244px;
    color: #656464;
    margin-bottom: 70px;
   }
-  .top_news_pic{
-    margin-bottom: 20px;
-  }
+  
   .pagination_display{
     display: inline-block;
     margin-right: 5px;
