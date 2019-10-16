@@ -115,7 +115,7 @@ ul li{
   left: 50%;
   transform: translate(-50%);
 }
-.main_desc{
+.main-desc{
   margin: 0;
   font-family: 'Open Sans';
   color: #ffffff;
@@ -322,7 +322,7 @@ ul li{
 .pagelist{
   display: inline-block;
 }
-.page__item{
+.pagelist__item{
   display: inline-block;
 }
 .pagelist__link,.page-prew,.page-next{
@@ -353,7 +353,7 @@ ul li{
   color: #fff;
 }
 .footer{
- font-family: 'Open Sans';
+  font-family: 'Open Sans';
   color: #ffffff;
   background: #131415;
   height: 77px;
@@ -389,6 +389,14 @@ ul li{
   color: #fff;
   text-decoration: none;
 }
+.footer__tittle{
+  position: absolute;
+  display: block;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
 .footer__netw{
   position: absolute;
   right: 0;
@@ -413,6 +421,12 @@ ul li{
   background: #fff;
   border-radius: 50%;
   margin: 0 auto;
+}
+.network__logo{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .network__item:hover{
   background: #f89513;;
