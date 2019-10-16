@@ -202,11 +202,6 @@ ul li{
   letter-spacing: normal;
   line-height: 1.67;
 }
-.news{
-  width: 1060px;
-  margin: 0 auto;
-  position: relative;
-}
 .news__tittle{
   font-family: 'Open Sans';
   font-size: 49px;
