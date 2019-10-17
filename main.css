@@ -232,9 +232,6 @@ ul li{
   width: 890px;
   vertical-align: top;
 }
-.newslist__item{
-  height: 220px;
-}
 .news__pic{ 
   display: inline-block;
   vertical-align: top;
@@ -250,7 +247,7 @@ ul li{
   color: #221f1f;
   word-wrap: break-word;
   width: 706px;
-  height: 185px;
+  height: 220px;
 }
 .news__date{
   position: absolute;
@@ -289,8 +286,10 @@ ul li{
   font-weight: 500;
 }
 .topnews{
+  position: relative;
   display: inline-block;
-  width: 160;
+  width: 165;
+  height: 600px;
   vertical-align: top;
 }
 .topnews__text{
@@ -315,10 +314,21 @@ ul li{
   text-align: center;
   color:  rgba(34, 31,31,.5);
 }
-.newspic__item{
-  position: relative;
+.newspic{
+  position: absolute;
   display: block;
-  padding-top: 15px;; 
+  width: 160px;
+  left: 50%; 
+  transform: translate(-50%);
+}
+.topnews__one{
+  top: 10%;
+}
+.topnews__two{
+  top: 34%;
+}
+.topnews__three{
+  top: 65%;
 }
 .pagination{
   display: block;
