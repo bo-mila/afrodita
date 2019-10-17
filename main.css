@@ -293,10 +293,9 @@ ul li{
   font-weight: 500;
 }
 .news__separator{
-display: block;
-height: 42px;
-width: 832px;
-vertical-align: middle;
+  display: block;
+  height: 42px;
+  width: 832px;
 }
 .topnews{
   position: relative;
