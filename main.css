@@ -144,17 +144,20 @@ ul li{
   margin: 0;
 }
 .desc__item{
+  position: relative;
   display: inline-block;
   width: 250px;
+  height: 380px;
 }
 .iconradius{
-  position: relative;
+  position: absolute;
   display: block;
   width: 65px;
   height: 65px;
+  left: 50%;
+  transform: translate(-50%);
   background: #f89513;
   border-radius: 50%;
-  margin: 0 auto;
 }
 .iconimage{
   position: absolute;
@@ -163,34 +166,43 @@ ul li{
   transform: translate(-50%,-50%);
 }
 .desc__name{
-  position: relative;
-  display: inline-block;
-  margin: 0 auto;
+  position: absolute;;
+  display: block;
+  height: 30px;
+  width: 205px;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%,-50%);
   font-size: 11px;
   font-weight: 800;
   font-style: normal;
   letter-spacing: 2.64px;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  text-align: center;
 }
 .desc__text{
-  position: relative;
+  position: absolute;
   display: block;
-  margin: 0;
   text-align: center;
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
   letter-spacing: normal;
   word-wrap: break-word;
-  padding-left: 20px;
-  padding-right: 20px;;
   line-height: 1.67;
+  width: 205px;
+  height: 80px;
+  left: 50%;
+  top: 47%;
+  transform: translate(-50%,-50%);
 }
 .about{
+  position: absolute;
   padding-left: 50px;
+  height: 90px;
+  width: 205px;
+  left: 50%;
+  top: 66%;
+  transform: translate(-50%,-50%);
 }
 .about__item{
   display: list-item;
