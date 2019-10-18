@@ -100,6 +100,9 @@ ul li{
 .contacts__hours:hover{
   color: #fff;
 }
+.pagecontent{
+  margin-bottom: 70px;
+}
 .logo{
   position: relative;
   height: 544px;
@@ -144,7 +147,7 @@ ul li{
   text-align: center;
   margin-right: 20px;
 }
-.desc__item:nth-child(lastn){
+.desc__item:last-child{
   margin-right: 0;
 }
 .iconradius{
@@ -152,8 +155,7 @@ ul li{
   display: block;
   width: 65px;
   height: 65px;
-  left: 50%;
-  transform: translate(-50%);
+  margin: 0 auto;
   background: #f89513;
   border-radius: 50%;
   margin-bottom: 40px;
@@ -212,6 +214,7 @@ ul li{
   width: 870px;
   vertical-align: top;
   margin-right: 19px;
+  margin-bottom: 40px;
 }
 .newslist__item{
   margin-bottom: 30px;
@@ -233,10 +236,12 @@ ul li{
   vertical-align: top;
   border-radius: 50%;
   overflow: hidden;
-}
-.pic{
+  margin-right: 20px;
   width: 160px;
   height: 160px;
+}
+.pic{
+  
   display: block;
   object-fit: cover;
   width: 100%;
@@ -252,7 +257,6 @@ ul li{
   color: #221f1f;
   word-wrap: break-word;
   width: 674px;
-  left: 20px;
 }
 .news__date{
   display: block;
@@ -318,20 +322,17 @@ ul li{
   line-height: 1.5;
   letter-spacing: normal;
   color: #221f1f;
-  height: 105px;
 }
 .pagination__display{
-  position: absolute;
+ 
   display: inline-block;
   font-weight: 300;
-  top: 30%;
-  left: 33%;
+  text-align: center;
+  margin-right: 10px;
 }
 .pagination__nav{
-  position: absolute;
   display: inline-block;
-  top: 30%;
-  left: 45%
+  text-align: center;
 }
 .pagelist{
   display: inline-block;
