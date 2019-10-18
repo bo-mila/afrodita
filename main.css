@@ -280,8 +280,6 @@ ul li{
 .topnews{
   position: relative;
   display: inline-block;
-  width: 165;
-  height: 600px;
   vertical-align: top;
 }
 .topnews__text{
@@ -306,21 +304,11 @@ ul li{
   text-align: center;
   color:  rgba(34, 31,31,.5);
 }
-.newspic{
-  position: absolute;
-  display: block;
-  width: 160px;
-  left: 50%; 
-  transform: translate(-50%);
+.topnewspic__item{
+  margin-bottom: 20px;
 }
-.topnews__one{
-  top: 10%;
-}
-.topnews__two{
-  top: 34%;
-}
-.topnews__three{
-  top: 65%;
+.topnewspic__item:last-child{
+  margin-bottom: 0;
 }
 .pagination{
   position: relative;
