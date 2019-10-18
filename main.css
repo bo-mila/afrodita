@@ -45,29 +45,27 @@ ul li{
   font-style: normal;
   letter-spacing: 3px;
   font-stretch: normal;
-  width: 160px;
 }
 .sidebar{
   position: absolute;
   margin: 0 auto;
   top:30px;
-  margin-left: 350px;
-  margin-right: 320px;
+  left: 53%;
+  transform: translate(-50%);
 }
 .nav__item{
   display: inline-block;
-  vertical-align: middle;
+  text-align: center;
   margin: 0;
-  margin-left: 28px;
+  width: 121px;
 }
 .nav__link{
   text-decoration: none;
   font-family: 'Open Sans';
-  font-size: 9px;
-  font-weight: 400;
+  font-size: 10px;
+  font-weight: 600;
   font-style: normal;
   color: #fff;
-  height: 9px;
   letter-spacing: 4px;
 }
 .nav__icon,.nav__tittle{
@@ -117,15 +115,15 @@ ul li{
   font-family: 'Open Sans';
   color: #ffffff;
   background: #131415;
-  height: 570px;
   margin-bottom: 80px;
 }
 .features{
   position: relative;
   margin: 0 auto;
   width: 789px;
-  padding-top:66px;
+  padding-top: 66px;
   text-align: center;
+  padding-bottom: 102px;
 }
 .features__text{
   position: relative;
@@ -220,19 +218,19 @@ ul li{
 .newslist__item:last-child{
   margin-bottom: 0;
 }
-.newslast__ref{
+.newslist__ref{
   text-decoration: none;
 }
 .newslast{ 
   position: relative;
   display: inline-block;
   vertical-align: top;
-  width: 160px;
-  height: 160px;
   border-radius: 50%;
   overflow: hidden;
 }
 .pic{
+  width: 160px;
+  height: 160px;
   display: block;
   object-fit: cover;
   width: 100%;
@@ -384,10 +382,10 @@ ul li{
   position: relative;
   width: 1070px;
 }
-.footer__withlove{
+.withlove{
   position: absolute;
   left: 0;
-  top: 8px;
+  top: 10px;
   word-wrap: break-word;
   margin: 0;
   text-decoration: none;
@@ -399,6 +397,9 @@ ul li{
   letter-spacing: normal;
   text-align: left;
   width: 240px;
+}
+p{
+  margin: 0;
 }
 .footer__loftschool{
   color: #fff;
