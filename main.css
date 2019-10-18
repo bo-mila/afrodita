@@ -327,7 +327,6 @@ ul li{
 .pagination__display{
   position: absolute;
   display: inline-block;
-  width: 130px;
   font-weight: 300;
   top: 30%;
   left: 33%;
@@ -340,6 +339,7 @@ ul li{
 }
 .pagelist{
   display: inline-block;
+  margin-right: 7px;
 }
 .pagelist__item{
   display: inline-block;
@@ -347,8 +347,6 @@ ul li{
 .pagelist__link,.page-prew,.page-next{
   display: inline-block;
   text-decoration: none;
-  width: 20px;
-  height: 20px;
   background: #fff;
   border-radius: 20%;
   font-size: 16px;
@@ -358,6 +356,10 @@ ul li{
   line-height: 1.5;
   letter-spacing: normal;
   color: #221f1f;
+  width: 15px;
+}
+.page-prew{
+  margin-right: 7px;
 }
 .pagelist__link:hover{
   background: #131415;
