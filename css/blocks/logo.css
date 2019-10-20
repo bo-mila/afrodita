@@ -1,0 +1,23 @@
+.tittle{
+  display: inline-block;
+  position: absolute;
+  top: 31px;
+  left: 0;
+  bottom: 28px;
+}
+.tittle__ref{
+  text-decoration: none;
+  color:#f89513;
+  font-family: GoraFree, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 3px;
+  font-stretch: normal;
+}
+.tittle--middle{
+  position: absolute;
+  display: block;
+  left: 50%;
+  transform: translate(-50%);
+}

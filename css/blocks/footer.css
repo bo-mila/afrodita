@@ -1,0 +1,11 @@
+.footer{
+  font-family: 'Open Sans';
+  color: #ffffff;
+  background: #131415;
+  height: 77px;
+}
+.footer__container{
+  height: 77px;
+  position: relative;
+  width: 1070px;
+}

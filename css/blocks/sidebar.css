@@ -1,0 +1,28 @@
+.sidebar{
+  position: absolute;
+  margin: 0 auto;
+  top:30px;
+  left: 53%;
+  transform: translate(-50%);
+}
+.nav__item{
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  width: 121px;
+}
+.nav__link{
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-size: 10px;
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  letter-spacing: 4px;
+}
+.nav__icon,.nav__tittle{
+  display: inline-block;
+}
+.nav__tittle:hover{
+  color: #f89513;;
+}

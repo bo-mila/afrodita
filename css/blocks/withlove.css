@@ -1,0 +1,26 @@
+.withlove{
+  position: absolute;
+  left: 0;
+  top: 10px;
+  word-wrap: break-word;
+  margin: 0;
+  text-decoration: none;
+  font-family:'Open Sans';
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  width: 240px;
+}
+p{
+  margin: 0;
+}
+.footer__loftschool{
+  color: #fff;
+}
+.footer__author{
+  color: #fff;
+  text-decoration: none;
+}
