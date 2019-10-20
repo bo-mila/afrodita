@@ -1,21 +1,21 @@
-.tittle{
+.logo{
   display: inline-block;
   position: absolute;
   top: 31px;
   left: 0;
   bottom: 28px;
 }
-.tittle__ref{
+.logo__ref{
   text-decoration: none;
   color:#f89513;
-  font-family: GoraFree, sans-serif;
-  font-size: 20px;
+  font-family: Gora Free, sans-serif;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 3px;
   font-stretch: normal;
 }
-.tittle--middle{
+.logo--middle{
   position: absolute;
   display: block;
   left: 50%;

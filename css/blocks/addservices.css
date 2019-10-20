@@ -1,0 +1,11 @@
+.addservices{
+  margin: 0 auto;
+  font-family: 'Open Sans';
+  color: #ffffff;
+  background: #131415;
+  margin-bottom: 60px;
+}
+.addservices__container{
+  margin: 0 auto;
+  width: 636px;
+}

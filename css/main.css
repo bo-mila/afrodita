@@ -13,11 +13,16 @@
 @import url('./blocks/features.css');
 @import url('./blocks/news__tittle.css');
 @import url('./blocks/news__last.css');
+@import url('./blocks/reviews.css');
+@import url('./blocks/list.css');
+@import url('./blocks/addservices.css');
+@import url('./blocks/feedback.css');
+@import url('./blocks/breadcrumbs.css');
+
 @import url('./blocks/topnews.css');
 @import url('./blocks/pagination.css');
 @import url('./blocks/footer.css');
 @import url('./blocks/withlove.css');
-@import url('./blocks/footer__tittle.css');
 @import url('./blocks/footer__netw.css');
 
 

@@ -5,26 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <link rel="stylesheet" href="./css/main.css">
-  <!--<link rel="stylesheet" href="./css/layout/font.css">
-  <link rel="stylesheet" href="./css/layout/base.css">
-  <link rel="stylesheet" href="./css/layout/normalize.css">
-  <link rel="stylesheet" href="./css/blocks/header.css">
-  <link rel="stylesheet" href="./css/blocks/logo.css">
-  <link rel="stylesheet" href="./css/blocks/sidebar.css">
-  <link rel="stylesheet" href="./css/blocks/contacts.css">
-  <link rel="stylesheet" href="./css/blocks/pagecontent.css">
-  <link rel="stylesheet" href="./css/blocks/main-desc.css">
-  <link rel="stylesheet" href="./css/blocks/slogan.css">
-  <link rel="stylesheet" href="./css/blocks/features.css">
-  <link rel="stylesheet" href="./css/blocks/news__tittle.css">
-  <link rel="stylesheet" href="./css/blocks/news__last.css">
-  <link rel="stylesheet" href="./css/blocks/topnews.css">
-  <link rel="stylesheet" href="./css/blocks/pagination.css">
-  <link rel="stylesheet" href="./css/blocks/footer.css">
-  <link rel="stylesheet" href="./css/blocks/withlove.css">
-  <link rel="stylesheet" href="./css/blocks/footer__tittle.css">
-  <link rel="stylesheet" href="./css/blocks/footer__netw.css">-->
-  <title>Main Page</title>
+ <title>Main Page</title>
 </head>
 <body>
   <div class="wrapper">
@@ -32,10 +13,9 @@
     
       <!-----------------H E A D E R----------------->
       <header class="header">  
-        <div class="container">
-          <div class="header__container container">
-            <div class="header__tittle tittle">
-              <a href="" class="tittle__ref">АФРОДИТА</a>
+        <div class="header__container container">
+            <div class="header__logo logo">
+              <a href="" class="logo__ref">АФРОДИТА</a>
             </div>
             <div class="header__sidebar sidebar">
               <nav class="nav">
@@ -66,7 +46,7 @@
               <div class="contacts__hours" title="ПН-ВС: 09:00-20:00 ОБЕД: 14:00-14:30">График работы</div>
             </div>
           </div>
-        </div>
+        
       </header>
     <!-----------------C O N T E N T----------------->
       <div class="pagecontent">
@@ -121,27 +101,27 @@
             <div class="news container">   
               <h2 class="news__tittle">ПОСЛЕДНИЕ НОВОСТИ</h2>
               <div class="news__last">
-                <ul class="newslist">
-                  <li class="newslist__item">
-                    <a href="#" class="newslist__ref">
-                      <div class="newslast">
-                        <img src="./img/nw1.png" alt="" class="newslast__one pic">
+                <ul class="news__list list">
+                  <li class="list__item">
+                    <a href="#" class="list__ref">
+                      <div class="list__pic">
+                        <img src="./img/nw1.png" alt="" class="list__one pic">
                       </div>
-                      <div class="news__desc">
-                        <div class="news__date">12.10.2016</div>
+                      <div class="list__desc">
+                        <div class="list__date">12.10.2016</div>
                         <span>Похудение с помощью бодибилдинга!</span>
                         <p>Вдыхание одного литра кислорода эквивалентно "сжиганию" 5 каллорий, однако в минуту при самом высоком темпе движений атлет способен вдохнут не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.
                           </p>
                       </div>
                     </a>
                   </li>
-                  <li class="newslist__item">
-                    <a href="#" class="newslist__ref">
-                      <div class="newslast">
-                        <img src="./img/nw2.png" alt="" class="newslast__two pic">
+                  <li class="list__item">
+                    <a href="#" class="list__ref">
+                      <div class="list__pic">
+                        <img src="./img/nw2.png" alt="" class="list__two pic">
                       </div>
-                      <div class="news__desc">
-                        <div class="news__date">01.02.2016</div>
+                      <div class="list__desc">
+                        <div class="list__date">01.02.2016</div>
                         <span>Заражай друзей, получай призы!</span>
                         <p>Дополнительно для Вас: польлзование сауной и проедоставление
                           средств личной гигиены, пользование баром, таблица замеров, дружеская
@@ -151,14 +131,14 @@
                       </div>
                     </a>
                   </li>
-                  <li class="newslist__item">
-                    <a href="#" class="newslist__ref">
-                      <div class="newslast">
-                        <img src="./img/nw3.png" alt="" class="newslast__three pic">
+                  <li class="list__item">
+                    <a href="#" class="list__ref">
+                      <div class="list__pic">
+                        <img src="./img/nw3.png" alt="" class="list__three pic">
                       </div>
-                      <div class="news__desc">
-                        <div class="news__date">22.12.2015</div>
-                        <span class="news__name">Фрилансер? Выпрями спину!</span>
+                      <div class="list__desc">
+                        <div class="list__date">22.12.2015</div>
+                        <span class="list__name">Фрилансер? Выпрями спину!</span>
                         <p>Создайте рабочее место под себя. Вот этот инструмент поможет
                           определить, что подходит именно вам и вашему организму. Используйте
                           специальную подставку для ноутбука, если вы проводите за ним больше
@@ -194,28 +174,42 @@
                   <div class="pagination__nav">
                     <a href="#" class="page-prew">&lt</a>
                     <ul class="pagelist">
-                      <li class="pagelist__item">
-                        <a href="#" class="pagelist__link">1</a>
-                      </li>
-                      <li class="pagelist__item">
-                        <a href="#" class="pagelist__link">2</a>
-                      </li>
-                      <li class="pagelist__item">
-                        <a href="#" class="pagelist__link">3</a>
-                      </li>
-                      <li class="pagelist__item">
-                        <a href="#" class="pagelist__link">4</a>
-                      </li>
-                      <li class="pagelist__item">
-                        <a href="#" class="pagelist__link">5</a>
-                      </li>
-                      <li class="pagelist__item">
-                        <a href="#" class="pagelist__link">6</a>
-                      </li>
-                      <li class="pagelist__item">
-                        <a href="#" class="pagelist__link">7</a>
-                      </li>
-                    </ul>
+                        <li class="pagelist__item pagelist_item--active">
+                            <div class="pagepoint">
+                              <a href="#" class="pagelist__link">1</a>
+                            </div>
+                        </li>
+                        <li class="pagelist__item">
+                            <div class="pagepoint">
+                                <a href="#" class="pagelist__link">2</a>
+                              </div>
+                        </li>
+                        <li class="pagelist__item">
+                            <div class="pagepoint">
+                                <a href="#" class="pagelist__link">3</a>
+                              </div>
+                        </li>
+                        <li class="pagelist__item">
+                            <div class="pagepoint">
+                                <a href="#" class="pagelist__link">4</a>
+                              </div>
+                        </li>
+                        <li class="pagelist__item">
+                            <div class="pagepoint">
+                                <a href="#" class="pagelist__link">5</a>
+                              </div>
+                        </li>
+                        <li class="pagelist__item">
+                            <div class="pagepoint">
+                                <a href="#" class="pagelist__link">6</a>
+                              </div>
+                        </li>
+                        <li class="pagelist__item">
+                            <div class="pagepoint">
+                                <a href="#" class="pagelist__link">7</a>
+                              </div>
+                        </li>
+                      </ul>
                     <a href="#" class="page-next">&gt</a>
                   </div>
                 </div>
@@ -232,8 +226,8 @@
                    target="_blank">Прохладов Вадим</a>.
                 </p>
               </div>
-              <div class="tittle tittle--middle">
-                <a href="" class="tittle__ref">АФРОДИТА</a>
+              <div class="logo logo--middle">
+                <a href="" class="logo__ref">АФРОДИТА</a>
               </div>
               <div class="footer__netw">
                 <div class="network">Наши социальные сети</div>

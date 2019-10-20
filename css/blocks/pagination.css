@@ -10,6 +10,7 @@
   line-height: 1.5;
   letter-spacing: normal;
   color: #221f1f;
+  text-decoration: none;
 }
 .pagination__display{
  
@@ -33,31 +34,32 @@
 .pagelist__item:last-child{
   margin-right: 0;
 }
+.pagepoint{
+  height: 25px;
+  width: 25px;
+  background: #fff;
+  border-radius: 7%;
+}
+.pagelist__link,.page-prew,.page-next{
+  color: #000000;
+}
+.pagelist_item--active .pagepoint{
+  background: #131415;
+  border-radius: 17%;
+}
+.pagelist_item--active .pagelist__link{
+color: #f89513;
+}
 .pagelist__link,.page-prew,.page-next{
   display: inline-block;
   text-decoration: none;
-  background: #fff;
-  border-radius: 20%;
   font-size: 16px;
   font-weight: 800;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  color: #221f1f;
 }
 .page-prew{
   margin-right: 7px;
-}
-.pagelist__link:hover{
-  background: #131415;
-  color: #fff;
-}
-.page-prew:hover{
-  background: #131415;
-  color: #fff;
-}
-.page-next:hover{
-  background: #131415;
-  color: #fff;
 }
