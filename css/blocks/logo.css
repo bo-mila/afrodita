@@ -1,9 +1,4 @@
 .logo{
-  display: inline-block;
-  position: absolute;
-  top: 31px;
-  left: 0;
-  bottom: 28px;
 }
 .logo__ref{
   text-decoration: none;
@@ -16,8 +11,5 @@
   font-stretch: normal;
 }
 .logo--middle{
-  position: absolute;
-  display: block;
-  left: 50%;
-  transform: translate(-50%);
+  
 }

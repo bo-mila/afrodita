@@ -1,15 +1,11 @@
 .contacts{
-  position: absolute;
-  right: 0;
-  top: 22px;
-  text-align: right;
+  font-style: normal;
 }
 .contacts__phone{
   color: #fff;
   font-family: 'Open Sans';
   font-size: 21px;
   font-weight: bold;
-  font-style: normal;
   font-stretch: normal;
   text-decoration: none;
  }
@@ -17,9 +13,9 @@
   color: rgba(248, 149, 19, 0.7);
   font-size: 14px;
   font-weight: bold;
-  font-style: normal;
   text-decoration: underline;
   letter-spacing: 2px;
+  text-align: right;
 }
 .contacts__hours:hover{
   color: #fff;

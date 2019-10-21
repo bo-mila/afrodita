@@ -22,6 +22,10 @@ body{
   margin: 0 auto;
   width: 1060px;
 }
+
+.main-content{
+  width: 100%;
+}
 ul{
   margin:0;
   padding: 0;

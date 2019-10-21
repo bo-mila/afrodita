@@ -1,3 +1,6 @@
 .pagecontent{
   margin-bottom: 70px;
 }
+.pagecontent__container{
+  display: flex;
+}

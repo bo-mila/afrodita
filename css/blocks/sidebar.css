@@ -1,9 +1,4 @@
 .sidebar{
-  position: absolute;
-  margin: 0 auto;
-  top:30px;
-  left: 53%;
-  transform: translate(-50%);
 }
 .nav__item{
   display: inline-block;
