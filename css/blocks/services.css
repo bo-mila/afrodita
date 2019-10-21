@@ -1,0 +1,5 @@
+.services__container{
+  margin: 0 auto;
+  width: 880px;
+  display: flex;
+}

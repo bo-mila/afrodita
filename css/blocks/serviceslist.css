@@ -1,69 +1,53 @@
 
-.list__item{
+.serviceslist{
   display: flex;
-  margin-bottom: 30px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgba(34, 31,31,.1);
-  padding-bottom: 20px;
+  flex-wrap: wrap;
 }
-.list__item:last-child{
-  margin-bottom: 0;
-  border-bottom: none;
+.serviceslist__item{
+ width: calc(100%/3 - 20px);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
-.list__avatar{
-  width: 24%;
-}
-.list__pic{ 
+.serviceslist__avatar{ 
   position: relative;
   display: inline-block;
   vertical-align: top;
-  border-radius: 50%;
   overflow: hidden;
   width: 160px;
   height: 160px;
 }
-.pic{
+.pb ic{
   
   display: block;
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
-.list__pic--nophoto{
-  background: rgb(245, 245, 245, .75);
-}
-.list__pic--nophoto .pic{
-  position: relative;
-  width: 95px;
-  height: 114px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
-}
-.list__desc{
+
+.serviceslist__desc{
   font-family: 'Roboto';
   font-style: normal;
   font-stretch: normal;
   letter-spacing: normal;
   color: #221f1f;
   word-wrap: break-word;
-  width: 76%;
+ 
 }
-.list__date{
+.serviceslist_inscr{
   display: block;
   font-size: 14px;
   color: rgba(34, 31,31,.5);
   font-weight: normal;
   line-height: 21px;
 }
-.list span{
+.serviceslist span{
   display: block;
   line-height: 21px;
   font-weight: bold;
   margin-bottom: 5px;
 }
-.list p{
+.serviceslist p{
   display: block;
   font-family: 'Roboto', sans-serif;
   line-height: 30px;

@@ -52,41 +52,45 @@
       <div class="pagecontent">
           <div class="pagecontent__container">
             
-                
+            <nav class="breadcrumbs">
+              <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                  <a href="#" class="breadcrumbs__item-link">Главная</a>
+                </li>
+                <li class="breadcrumbs__item">
+                  <a href="#" class="breadcrumbs__item-link breadcrumbs__item-link--active">Отзывы</a>
+                </li>
+                </ul>
+            </nav>
              
             <main class="main-content">
-                <nav class="breadcrumbs">
-                    <ul class="breadcrumbs__list">
-                      <li class="breadcrumbs__item">
-                        <a href="#" class="breadcrumbs__item-link">Главная</a>
-                      </li>
-                      <li class="breadcrumbs__item">
-                        <a href="#" class="breadcrumbs__item-link breadcrumbs__item-link--active">Отзывы</a>
-                      </li>
-                      </ul>
-                  </nav>
+               
                          <!-- О Т З Ы В Ы -->
-                <div class="reviews">
+                <section class="reviews">
                   <div class="reviews__container">   
                     <h2 class="reviews__tittle">ОТЗЫВЫ</h2>
                     <ul class="reviews__list list">
                         <li class="list__item">
-                          <a href="#" class="list__ref">
-                            <div class="list__pic">
-                              <img src="./img/rew1.png" alt="" class="list__one pic">
-                            </div>
+                          <div class="list__avatar">
+                            
+                              <div class="list__pic">
+                                <img src="./img/rew1.png" alt="" class="list__one pic">
+                              </div>
+                          </div>
                             <div class="list__desc">
                               <div class="list__date">12.10.2016</div>
                               <span>Алексей Воронов</span>
                               <p>Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в неделю, доволен и всем советую. Кстати, польза от тренировок намного заметнее, если придерживаться ПП. Рацион мне составили на неделю, но я его повторяю, не надоедает.
                                 </p>
                             </div>
-                          </a>
+                          
                         </li>
                         <li class="list__item">
-                          <a href="#" class="list__ref">
-                            <div class="list__pic">
-                              <img src="./img/rew2.png" alt="" class="list__two pic">
+                          
+                            <div class="list__avatar">
+                              <div class="list__pic">
+                                <img src="./img/rew2.png" alt="" class="list__two pic">
+                              </div>
                             </div>
                             <div class="list__desc">
                               <div class="list__date">01.02.2016</div>
@@ -94,12 +98,14 @@
                               <p>Подарили на день рождения абонемент в бассейн, пришлось воспользоваться. Сама бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся постоянно, администрации следует обратить внимание на этот вопрос! Еще бросилось в глаза хамство обслуживающего персонала. Уборщица в раздевалке вела себя, как будто это к ней в гости пришли.
                                 </p>
                             </div>
-                          </a>
+                          
                         </li>
                         <li class="list__item">
-                          <a href="#" class="list__ref">
-                            <div class="list__pic list__pic--nophoto">
-                              <img src="./img/slogan-pic.png" alt="" class="list__three pic">
+                          
+                            <div class="list__avatar">
+                              <div class="list__pic list__pic--nophoto">
+                                <img src="./img/slogan-pic.png" alt="" class="list__three pic">
+                              </div>
                             </div>
                             <div class="list__desc">
                               <div class="list__date">22.12.2015</div>
@@ -107,12 +113,14 @@
                               <p>Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите большего, то обращайтесь в специализированные тренажерки с новым железом и европейской техникой.
                                 </p>
                             </div>
-                          </a>
+                         
                         </li>
                         <li class="list__item">
-                            <a href="#" class="list__ref">
-                              <div class="list__pic">
-                                <img src="./img/rew4.png" alt="" class="list__three pic">
+                            
+                              <div class="list__avatar">
+                                <div class="list__pic">
+                                  <img src="./img/rew4.png" alt="" class="list__three pic">
+                                </div>
                               </div>
                               <div class="list__desc">
                                 <div class="list__date">04.08.2015</div>
@@ -120,7 +128,7 @@
                                 <p>Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение в зеркале радует. Цены приятные, а если платить на полгода вперед, то вообще выгодно получается, скидка почти 30%.
                                   </p>
                               </div>
-                            </a>
+                           
                           </li>
                       </ul>
                       <div class="pagination">
@@ -168,35 +176,69 @@
                         </div>
                       </div>
                     </div> 
-                </div>         <!--and rewies-->
-                  <div class="addservices">
-                      <div class="addservices__container">
-                        <p>
-                          Помимо перечисленных услуг, мы предоставляем консультации 
-                          профессиональных диетологов, тренеров, психологов. 
-                          Также есть кабинет массажа, зал спа рядом с бассейном 
-                          и возможность арендовать центр для проведения массовых 
-                          мероприятий. Ждем ваших заявок!
-                        </p>
-                      </div>
-                      </div>
-                      <div class="feedback">
-                        <div class="feedback_container">
-                          <form action="" method="" enctype="" autocomplete="">
-                            <h2>Оставить отзыв</h2>
-                            <div class="feedback__name">Ваше имя</div>
-                            <div class="feedback__refvk">Ссылка на профиль VK</div>
-                            <input type="text" placeholder="Андрей">
-                            <input type="text" placeholder="vk.com/example">
-                            <div class="feedback__text">Текст отзыва</div>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Мне понравилось"></textarea>
-                            <h4>Отображать фото в отзыве?</h4>
-                            Да<input type="radio" name="showphoto">
-                            Нет<input type="radio" name="showphoto">
-                            <button type="submit">Отправить</button>
-                          </form>
+                </section>         <!--and rewies-->
+                  <section class="feedback">
+                    <div class="addservices">
+                        <div class="addservices__container">
+                          <p>
+                            Помимо перечисленных услуг, мы предоставляем консультации 
+                            профессиональных диетологов, тренеров, психологов. 
+                            Также есть кабинет массажа, зал спа рядом с бассейном 
+                            и возможность арендовать центр для проведения массовых 
+                            мероприятий. <span>Ждем ваших заявок!</span>
+                          </p>
                         </div>
-                      </div>
+                        </div>
+                     <div class="feedback__container">
+                          <div class="feedback__form form">
+                              <h2 class="form__title">Оставить отзыв</h2>
+                            <form action="" class="form__elem">
+                              <div class="form__row">
+                                <label class="form__block">
+                                  <div class="form__block-title">Ваше имя</div>
+                                  <input placeholder="Андрей" type="text" name="" class="form__input">
+                                </label>
+                                <label class="form__block">
+                                    <div class="form__block-title">Ссылка на профиль VK</div>
+                                    <input placeholder="vk.com/example" type="text" name="" class="form__input">
+                                  </label>
+                              </div>
+                              <div class="form__row">
+                                  <label class="form__block">
+                                    <div class="form__block-title">Текст отзыва</div>
+                                    <textarea name="" placeholder="Мне понравилось" class="form__input form__input--textarea"></textarea>
+                                  </label>
+                                  
+                                </div>
+                                <div class="form__row form__bottomline">
+                                  <div class="form__question">
+                                    <div class="form__question-title">
+                                        Отображать фото в отзыве?
+                                    </div>
+                                    <div class="form__question-choose">
+                                      <label class="choose">
+                                        <div class="choose__radio"></div>
+                                        <div class="choose__title">Да</div>
+                                      </label>
+                                      <label class="choose">
+                                          <div class="choose__radio"></div>
+                                          <div class="choose__title">Нет</div>
+                                        </label>
+                                    </div>
+                                  </div>
+                                  <div class="form__buttons">
+                                    <input type="reset" value="Очистисть">
+                                    <input type="submit" value="Отправить">
+                                  </div>
+                                </div>
+
+
+
+
+                            </form>
+                          </div>
+                        </div>
+                  </section>
             </main>
 
               </div>
@@ -211,7 +253,7 @@
                        target="_blank">Прохладов Вадим</a>.
                     </p>
                   </div>
-                  <div class="logo logo--middle">
+                  <div class="logo">
                     <a href="" class="logo__ref">АФРОДИТА</a>
                   </div>
                   <div class="footer__netw">

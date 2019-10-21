@@ -4,8 +4,17 @@
   color: #ffffff;
   background: #131415;
   margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  font-style: normal;
 }
 .addservices__container{
   margin: 0 auto;
-  width: 636px;
+  width: 690px;
+  padding: 30px 0;
+}
+.addservices__container span{
+  color: #f89513;
+  font-weight: bold;
 }

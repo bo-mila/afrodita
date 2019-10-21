@@ -20,3 +20,6 @@
 .contacts__hours:hover{
   color: #fff;
 }
+.contacts__hours title{
+  color: rgba(248, 149, 19, 0.7);
+}
