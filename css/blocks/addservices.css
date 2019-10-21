@@ -1,4 +1,5 @@
 .addservices{
+  position: relative;
   margin: 0 auto;
   font-family: 'Open Sans';
   color: #ffffff;
@@ -9,6 +10,13 @@
   font-weight: 300;
   font-style: normal;
 }
+.addservices__pattern{
+  position: flex;
+  height: 100%;
+  width: 100%;
+}
+.pattern{height: 100%;
+width: 100%;}
 .addservices__container{
   margin: 0 auto;
   width: 690px;

@@ -1,8 +1,5 @@
-.footer__netw{
-  position: absolute;
-  right: 0;
-  top: 10px;
-}
+
+  
 .network{
   font-family: 'Open Sans';
   font-size: 14px;
@@ -12,7 +9,7 @@
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 8px;
+  
 }
 .network__item{
   position: relative;
