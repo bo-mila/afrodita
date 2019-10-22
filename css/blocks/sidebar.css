@@ -6,6 +6,9 @@
   margin: 0;
   width: 121px;
 }
+.nav__item--active .nav__link{
+  color: #f89513;
+}
 .nav__link{
   text-decoration: none;
   font-family: 'OpenSans';
@@ -45,3 +48,12 @@
 .nav__link:hover{
   color:#f89513;
  }
+ .nav__item--active .nav__link--icon--main::before{
+  background-image: url('/img/main_icon-hover.png');
+}
+.nav__item--active .nav__link--icon--feed::before{
+  background-image: url('/img/feed_icon-hover.png');
+}
+.nav__item--active .nav__link--icon--service::before{
+  background-image: url('/img/service_icon-hover.png');
+} 
