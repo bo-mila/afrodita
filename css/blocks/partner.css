@@ -1,0 +1,24 @@
+.logolist{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logolist__item{
+  width: calc(100%/3 - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .logolist__avatar{ 
+   overflow: hidden;
+   max-width: 250px;
+   max-height: 153px;
+   filter: grayscale(100%);
+ }
+ .logolist__avatar:hover{
+   filter: none;
+ }
+ .serviceslist__pic{
+   display: block;
+   object-fit: cover;
+  }
