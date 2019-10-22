@@ -8,16 +8,40 @@
 }
 .nav__link{
   text-decoration: none;
-  font-family: 'Open Sans';
-  font-size: 10px;
-  font-weight: 600;
-  font-style: normal;
+  font-family: 'OpenSans';
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  line-height: 4.5;
   color: #fff;
-  letter-spacing: 4px;
-}
-.nav__icon,.nav__tittle{
+ }
+.nav__link::before{
+  content: "";
   display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 18px;
+  margin-right: 17px;
+  background: center center / contain no-repeat;
 }
-.nav__tittle:hover{
-  color: #f89513;;
+.nav__link--icon--main::before{
+  background-image: url('/img/main_icon.png');
 }
+.nav__link--icon--feed::before{
+  background-image: url('/img/feed_icon.png');
+}
+.nav__link--icon--service::before{
+  background-image: url('/img/service_icon.png');
+} 
+.nav__link--icon--main:hover::before{
+  background-image: url('/img/main_icon-hover.png');
+}
+.nav__link--icon--feed:hover::before{
+  background-image: url('/img/feed_icon-hover.png');
+}
+.nav__link--icon--service:hover::before{
+  background-image: url('/img/service_icon-hover.png');
+} 
+.nav__link:hover{
+  color:#f89513;
+ }
