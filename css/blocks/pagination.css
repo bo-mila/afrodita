@@ -12,8 +12,7 @@
   text-decoration: none;
 }
 .pagination__display{
- 
-  display: flex;
+   display: flex;
   font-weight: 300;
   text-align: center;
   margin-right: 10px;
