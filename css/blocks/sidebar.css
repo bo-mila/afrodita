@@ -29,7 +29,7 @@
   background-image: url('/img/main_icon.png');
 }
 .nav__link--icon--feed::before{
-  background-image: url("./img/feed_icon.png");
+  background-image: url('/img/feed_icon.png');
 }
 .nav__link--icon--service::before{
   background-image: url('/img/service_icon.png');
@@ -41,7 +41,7 @@
   background-image: url('/img/feed_icon-hover.png');
 }
 .nav__link--icon--service:hover::before{
-  background-image: url("/img/service_icon-hover.png");
+  background-image: url('/img/service_icon-hover.png');
 } 
 .nav__link:hover{
   color:#f89513;
