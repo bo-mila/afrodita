@@ -17,7 +17,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background:url('/img/pattern.png');
+  background-image: url("../../img/pattern.png");
 }
 .addservices__container{
   margin: 0 auto;
