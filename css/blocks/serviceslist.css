@@ -16,18 +16,40 @@
 .serviceslist__avatar{ 
   border-radius: 3%;
   overflow: hidden;
+  position: relative;
   display: inline-block;
-  background: rgba(0,0, 0, 1);
 }
-.serviceslist__avatar:hover{
+
+.serviceslist__avatar::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(0,0,0,.5);
+}
+.serviceslist__avatar:hover::after{
   background: none;
 }
 .serviceslist__pic{
-  width: 250px;
   height: 153px;
+  width: 250px;
   display: block;
   object-fit: cover;
   
+  
+}
+.serviceslist_inscr{
+  display: flex;
+  color: white;
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
 }
 
 .serviceslist__desc{
@@ -38,13 +60,6 @@
   color: #221f1f;
   word-wrap: break-word;
  
-}
-.serviceslist_inscr{
-  display: block;
-  font-size: 14px;
-  color: rgba(34, 31,31,.5);
-  font-weight: normal;
-  line-height: 21px;
 }
 .serviceslist span{
   display: block;
