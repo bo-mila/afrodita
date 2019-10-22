@@ -1,26 +1,24 @@
 
-.serviceslist{
-  display: flex;
-  flex-wrap: wrap;
-}
-.serviceslist__item{
- width: calc(100%/3 - 20px);
+.listvertical{
  display: flex;
- flex-direction: row;
- flex-wrap: wrap;
- align-items: flex-start;
+ flex-direction: column;
+ align-items: center;
+ 
+ padding-bottom: 50px;
+ /*flex-wrap: wrap;
+ align-items: flex-start;*/
 }
-.serviceslist__ref{
+.listvertical__ref{
   text-decoration: none;
 }
-.serviceslist__avatar{ 
+.listvertical__avatar{ 
   border-radius: 3%;
   overflow: hidden;
   position: relative;
   display: inline-block;
 }
 
-.serviceslist__avatar::after{
+.listvertical__avatar::after{
   content: "";
   position: absolute;
   top: 0;
@@ -29,10 +27,10 @@
   bottom: 0;
   background: rgb(0,0,0,.5);
 }
-.serviceslist__avatar:hover::after{
+.listvertical__avatar:hover::after{
   background: none;
 }
-.serviceslist__pic{
+.listvertical__pic{
   height: 153px;
   width: 250px;
   display: block;
@@ -40,7 +38,7 @@
   
   
 }
-.serviceslist_inscr{
+.listvertical__inscr{
   display: flex;
   color: white;
   font-size: 24px;
@@ -52,7 +50,7 @@
   align-items: center;
 }
 
-.serviceslist__desc{
+.listvertical__desc{
   font-family: 'Roboto';
   font-style: normal;
   font-stretch: normal;
@@ -61,13 +59,13 @@
   word-wrap: break-word;
  
 }
-.serviceslist span{
+.listvertical span{
   display: block;
   line-height: 21px;
   font-weight: bold;
   margin-bottom: 5px;
 }
-.serviceslist p{
+.listvertical p{
   display: block;
   font-family: 'Roboto', sans-serif;
   line-height: 30px;

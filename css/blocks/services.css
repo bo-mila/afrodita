@@ -2,3 +2,12 @@
   margin: 0 auto;
   width: 880px;
  }
+ .serviceslist{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+}
+.serviceslist__item{
+ width: calc(100%/3 - 20px);
+ margin-left: 20px;
+}
