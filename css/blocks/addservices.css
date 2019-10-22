@@ -10,13 +10,15 @@
   font-weight: 300;
   font-style: normal;
 }
-.addservices__pattern{
-  position: flex;
-  height: 100%;
-  width: 100%;
+.addservices::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:url('/img/pattern.png');
 }
-.pattern{height: 100%;
-width: 100%;}
 .addservices__container{
   margin: 0 auto;
   width: 690px;
