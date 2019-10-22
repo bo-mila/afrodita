@@ -1,7 +1,8 @@
 .topnews{
-  position: relative;
+  /*position: relative;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: top;*/
+  width: 15%;
 }
 .topnews__text{
   font-family: 'Open Sans';

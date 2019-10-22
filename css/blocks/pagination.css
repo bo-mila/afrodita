@@ -1,7 +1,6 @@
 .pagination{
-  position: relative;
-  display: block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   font-family: 'Roboto';
   font-size: 16px;
   font-weight: 800;
@@ -14,7 +13,7 @@
 }
 .pagination__display{
  
-  display: inline-block;
+  display: flex;
   font-weight: 300;
   text-align: center;
   margin-right: 10px;
