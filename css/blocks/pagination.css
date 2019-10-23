@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   font-family: 'Roboto';
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 800;
   font-style: normal;
   font-stretch: normal;
@@ -13,9 +13,9 @@
 }
 .pagination__display{
    display: flex;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
-  margin-right: 10px;
+  margin-right: 16px;
 }
 .pagination__nav{
   display: inline-block;
@@ -23,18 +23,18 @@
 }
 .pagelist{
   display: inline-block;
-  margin-right: 7px;
+  margin-right: 10px;
 }
 .pagelist__item{
   display: inline-block;
-  margin-right: 15px;
+  
 }
 .pagelist__item:last-child{
   margin-right: 0;
 }
 .pagepoint{
-  height: 25px;
-  width: 25px;
+  height: 23px;
+  width: 23px;
   background: #fff;
   border-radius: 7%;
 }
@@ -51,7 +51,7 @@ color: #f89513;
 .pagelist__link,.page-prew,.page-next{
   display: inline-block;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 800;
   font-style: normal;
   font-stretch: normal;
@@ -61,5 +61,5 @@ color: #f89513;
 
 
 .page-prew{
-  margin-right: 7px;
+  margin-right: 12px;
 }
