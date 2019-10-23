@@ -2,9 +2,9 @@
   margin: 0 auto;
   margin-bottom: 68px;
 }
-.reviews__container{
-  margin: 0 auto;
-  padding-left: 110px;
+.container--reviews{
+  width: 75%;
+  padding-left: 80px;
 }
 .reviews__tittle{
   font-family: 'Open Sans';
