@@ -1,4 +1,4 @@
-.services__container{
+.container--services{
   margin: 0 auto;
   width: 880px;
  }
@@ -10,4 +10,7 @@
 .serviceslist__item{
  width: calc(100%/3 - 20px);
  margin-left: 20px;
+}
+.services__tittle{
+  margin-bottom: 50px;
 }

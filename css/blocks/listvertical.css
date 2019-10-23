@@ -4,18 +4,22 @@
  flex-direction: column;
  align-items: center;
  
- padding-bottom: 50px;
+ padding-bottom: 45px;
  /*flex-wrap: wrap;
  align-items: flex-start;*/
 }
 .listvertical__ref{
   text-decoration: none;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 .listvertical__avatar{ 
   border-radius: 3%;
   overflow: hidden;
   position: relative;
-  display: inline-block;
+  margin-bottom: 25px;
 }
 
 .listvertical__avatar::after{
@@ -57,17 +61,20 @@
   letter-spacing: normal;
   color: #221f1f;
   word-wrap: break-word;
+  padding-right: 20px;
  
 }
 .listvertical span{
   display: block;
   line-height: 21px;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 5px;
 }
 .listvertical p{
   display: block;
   font-family: 'Roboto', sans-serif;
-  line-height: 30px;
+  font-size: 14px;
+  line-height: 1.5;
   font-weight: 400;
 }
