@@ -1,7 +1,7 @@
 .breadcrumbs {
   margin: 0 auto;
   margin-bottom: 28px;
-  width: 880px;
+  padding-left: 110px;
   text-align: left;
 }
 
@@ -13,7 +13,7 @@
 .breadcrumbs__item:after {
   content: "/";
   display: inline-block;
-  color: #4e4c4c;
+  color: rgba(34, 31, 31, 0.8);
   opacity: .8;
 }
 
@@ -25,11 +25,11 @@
   font-size: 14px;
   font-weight: 300;
   font-style: italic;
-  color: #b24930;
+  color: rgba(248, 149, 19, 0.8);
 }
 
 .breadcrumbs__item-link--active {
-  color: #4e4c4c;
+  color: rgba(34, 31, 31, 0.8);
   opacity: .8;
   text-decoration: none;
 }

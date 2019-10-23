@@ -1,10 +1,10 @@
 .reviews{
   margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 68px;
 }
 .reviews__container{
   margin: 0 auto;
-  width: 880px;
+  padding-left: 110px;
 }
 .reviews__tittle{
   font-family: 'Open Sans';
@@ -17,7 +17,7 @@
   text-align: left;
   color: #221f1f;
   margin: 0;
-  margin-bottom: 70px;
+  margin-bottom:50px;
 }
 .reviews__list{
   margin-bottom: 47px;
