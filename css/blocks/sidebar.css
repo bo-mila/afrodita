@@ -1,18 +1,16 @@
 .sidebar{
-  width: 35%;
+  width: 31%;
 }
 .nav__list{
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
-
-
 }
 .nav__item{
-  
   text-align: center;
   margin: 0;
+  margin-right: 23px;
 }
 .nav__item--active .nav__link{
   color: #f89513;
@@ -31,9 +29,9 @@
 .nav__link::before{
   content: "";
   flex-shrink: 0;
-  width: 24px;
-  height: 18px;
-  margin-right: 14px;
+  width: 20px;
+  height: 16px;
+  margin-right: 18px;
   background: center center / contain no-repeat;
 }
 .nav__link--icon--main::before{
