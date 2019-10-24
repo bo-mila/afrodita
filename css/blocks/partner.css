@@ -17,9 +17,10 @@
    max-width: 250px;
    max-height: 153px;
    filter: grayscale(100%);
- }
+  }
  .logolist__avatar:hover{
    filter: none;
+   transition: 0.6s;
  }
  .serviceslist__pic{
    display: block;
