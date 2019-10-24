@@ -1,0 +1,34 @@
+.breadcrumbs {
+  margin: 0 auto;
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.breadcrumbs__item:after {
+  content: "/";
+  display: inline-block;
+  color: rgba(34, 31, 31, 0.8);
+  opacity: .8;
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;
+}
+
+.breadcrumbs__item-link {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  color: rgba(248, 149, 19, 0.8);
+}
+
+.breadcrumbs__item-link--active {
+  color: rgba(34, 31, 31, 0.8);
+  opacity: .8;
+  text-decoration: none;
+}

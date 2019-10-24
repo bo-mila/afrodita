@@ -1,0 +1,30 @@
+.addservices{
+  position: relative;
+  margin: 0 auto;
+  font-family: 'Open Sans';
+  color: #ffffff;
+  background: #131415;
+  margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 1.67;
+  font-weight: 300;
+  font-style: normal;
+}
+.addservices::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../../img/pattern.png");
+}
+.addservices__container{
+  margin: 0 auto;
+  max-width: 690px;
+  padding: 30px 0;
+}
+.addservices__container span{
+  color: #f89513;
+  font-weight: bold;
+}

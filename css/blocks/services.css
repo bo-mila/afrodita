@@ -1,0 +1,19 @@
+.services{
+  margin-bottom: 30px;
+}
+.container--services{
+  margin: 0 auto;
+  width: 878px;
+ }
+ .serviceslist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.serviceslist__item{
+ width: calc(100%/3 - 34px);
+ 
+}
+.services__tittle{
+  margin-bottom: 50px;
+}

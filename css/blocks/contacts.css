@@ -1,0 +1,28 @@
+.contacts{
+  font-style: normal;
+  font-family: 'Open Sans';
+}
+.contacts__phone{
+  color: #fff;
+  
+  font-size: 21px;
+  font-weight: 700;
+  font-stretch: normal;
+  text-decoration: none;
+  line-height: 1.4;
+ 
+ }
+.contacts__hours{
+  color: rgba(248, 149, 19, 0.7);
+  font-size: 14px;
+  font-weight: bolder;
+  text-decoration: underline;
+  
+  text-align: right;
+}
+.contacts__hours:hover{
+  color: #fff;
+}
+.contacts__hours title{
+  color: rgba(248, 149, 19, 0.7);
+}
