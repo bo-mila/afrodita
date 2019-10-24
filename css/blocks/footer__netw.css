@@ -1,16 +1,14 @@
-
-  
 .network{
   font-family: 'Open Sans';
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  letter-spacing: normal;
+  letter-spacing: 1.2;
   text-align: center;
   color: #ffffff;
-  
-}
+  margin-bottom: 8px;
+ }
 .network__item{
   position: relative;
   display: inline-block;
@@ -19,6 +17,7 @@
   background: #fff;
   border-radius: 50%;
   margin: 0 auto;
+  margin-right: 6px;
 }
 .network__logo{
   position: absolute;
@@ -27,5 +26,5 @@
   transform: translate(-50%, -50%);
 }
 .network__item:hover{
-  background: #f89513;;
+  background: #f89513;
 }
