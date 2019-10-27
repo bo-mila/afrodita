@@ -1,66 +1,57 @@
-.sidebar{
-  width: 31%;
-}
 .nav__list{
   display: flex;
   width: 100%;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.nav__item{
-  text-align: center;
-  margin: 0;
-  margin-right: 23px;
+  flex-direction: column;
 }
 .nav__item--active .nav__link{
-  color: #f89513;
+  color: #221f1f;
 }
 .nav__link{
   display: flex;
   text-decoration: none;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 1.2px;
   line-height: 4.5;
-  color: #fff;
+  color: #f89513;
   align-items: center;
  }
 .nav__link::before{
   content: "";
   flex-shrink: 0;
   width: 20px;
-  height: 16px;
+  height: 18px;
   margin-right: 18px;
   background: center center / contain no-repeat;
 }
 .nav__link--icon--main::before{
-  background-image: url('../../img/main_icon.png');
+  background: url('../../sprites/icons/icons_sidebar.png') -49px -48px;
 }
 .nav__link--icon--feed::before{
-  background-image: url('../../img/feed_icon.png');
+  background: url('../../sprites/icons/icons_sidebar.png') -50px -10px;
 }
 .nav__link--icon--service::before{
-  background-image: url('../../img/service_icon.png');
+  background: url('../../sprites/icons/icons_sidebar.png') -90px -44px;
 } 
 .nav__link--icon--main:hover::before{
-  background-image: url('../../img/main_icon-hover.png');
+  background: url('../../sprites/icons/icons_sidebar.png') -10px -48px;
 }
 .nav__link--icon--feed:hover::before{
-  background-image: url('../../img/feed_icon-hover.png');
+  background: url('../../sprites/icons/icons_sidebar.png') -10px -10px;
 }
 .nav__link--icon--service:hover::before{
-  background-image: url('../../img/service_icon-hover.png');
+  background: url('../../sprites/icons/icons_sidebar.png') -90px -10px;
 } 
 .nav__link:hover{
-  color:#f89513;
+  color:#221f1f;
  }
  .nav__item--active .nav__link--icon--main::before{
-  background-image: url('../../img/main_icon-hover.png');
+  background: url('../../sprites/icons/icons_sidebar.png') -10px -48px;
 }
 .nav__item--active .nav__link--icon--feed::before{
-  background-image: url('../../img/feed_icon-hover.png');
+  background: url('../../sprites/icons/icons_sidebar.png') -10px -10px;
 }
 .nav__item--active .nav__link--icon--service::before{
-  background-image: url('../../img/service_icon-hover.png');
+  background: url('../../sprites/icons/icons_sidebar.png') -90px -10px;
 } 

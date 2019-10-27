@@ -1,9 +1,7 @@
 .header{
   background: #131415;
 }
-.header--main{
-  margin-bottom: 79px;
-}
+
 .header__container{
   position: relative;
   display: flex;
