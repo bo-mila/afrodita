@@ -6,9 +6,10 @@
  cursor: pointer;
  
  
- padding-bottom: 45px;
+ padding-top: 48px;
  /*flex-wrap: wrap;
  align-items: flex-start;*/
+
 }
 .listvertical:hover .listvertical__desc{
   color: #221f1f;
