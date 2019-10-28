@@ -8,11 +8,8 @@
   font-style: normal;
   font-stretch: normal;
   text-align: center;
-  
-  line-height: 3.86;
-  letter-spacing: normal;
-  
   color: #221f1f;
+  margin-bottom: 8px;
  }
  .networklist{
    display: flex;

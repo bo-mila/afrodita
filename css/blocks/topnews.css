@@ -5,6 +5,7 @@
   align-items: flex-start;
   justify-content: center;
   margin: 0 auto;
+  margin-bottom: 47px;
 }
 .topnews__text{
   font-family: 'Open Sans';
@@ -29,6 +30,7 @@
 }
 .topnewspic__item{
   margin-bottom: 22px;
+  width: 106%;
 }
 .topnewspic__item:last-child{
   margin-bottom: 0;
