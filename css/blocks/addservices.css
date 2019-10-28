@@ -4,7 +4,7 @@
   font-family: 'Open Sans';
   color: #ffffff;
   background: #131415;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   font-size: 18px;
   line-height: 1.67;
   font-weight: 300;
@@ -21,8 +21,9 @@
 }
 .addservices__container{
   margin: 0 auto;
-  max-width: 690px;
-  padding: 30px 0;
+  text-align: center;
+  
+  padding: 30px 26px;
 }
 .addservices__container span{
   color: #f89513;

@@ -7,8 +7,9 @@
 @import url('./blocks/main-content.css');
 @import url('./blocks/description.css');
 @import url('./blocks/logo.css');
-@import url('./blocks/sidebar--main.css');
 @import url('./blocks/sidebar.css');
+@import url('./blocks/sidebar--main.css');
+@import url('./blocks/sidebar--reviews.css');
 @import url('./blocks/contacts.css');
 @import url('./blocks/pagecontent.css');
 @import url('./blocks/main-desc.css');
