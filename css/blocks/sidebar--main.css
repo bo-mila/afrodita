@@ -1,6 +1,10 @@
 .sidebar--main{
-  width: 31%;
-  margin-right: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 25%;
+  margin-right: 22px;
 }
 .nav--main{
   padding-left: 77px;

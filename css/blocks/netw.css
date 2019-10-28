@@ -1,13 +1,24 @@
 .network{
+  margin: 0 auto;
+}
+.network__title{
   font-family: 'Open Sans';
   font-size: 14px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
-  letter-spacing: 1.2;
   text-align: center;
-  color: #ffffff;
-  margin-bottom: 8px;
+  
+  line-height: 3.86;
+  letter-spacing: normal;
+  
+  color: #221f1f;
+ }
+ .networklist{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+
  }
 .network__item{
   position: relative;
@@ -16,8 +27,7 @@
   height: 20px;
   background: #fff;
   border-radius: 50%;
-  margin: 0 auto;
-  margin-right: 6px;
+  
 }
 .network__logo{
   position: absolute;

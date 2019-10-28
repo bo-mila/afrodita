@@ -1,3 +1,4 @@
+
 .nav__list{
   display: flex;
   width: 100%;
@@ -23,7 +24,6 @@
   width: 20px;
   height: 18px;
   margin-right: 18px;
-  background: center center / contain no-repeat;
 }
 .nav__link--icon--main::before{
   background: url('../../sprites/icons/icons_sidebar.png') -49px -48px;
