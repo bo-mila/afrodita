@@ -28,6 +28,7 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
+  
 }
   .network__item .icon::after{
   position: absolute;
@@ -35,33 +36,34 @@
   top: 50%;
   transform: translate(-50%, -50%);
   content: "";
+  background: url('../../sprites/icons/icons_netw.png');
 }
 .network__item .icon--vk::after{
   width: 12px; 
   height: 7px;
-  background: url('../../sprites/icons/icons_netw.png') -41px -39px;
+  background-position: -41px -39px;
 }
 .network__item .icon--fb::after{
   width: 6px; 
   height: 13px;
-  background: url('../../sprites/icons/icons_netw.png') -77px -10px;
+  background-position: -77px -10px;
 }
 .network__item .icon--gl::after{
   width: 15px; 
   height: 9px;
-  background: url('../../sprites/icons/icons_netw.png')  -10px -10px;
+  background-position:  -10px -10px;
 }
 .network__item .icon--tw::after{
   content: "";
   width: 11px; 
   height: 9px;
-  background: url('../../sprites/icons/icons_netw.png') -10px -39px;
+  background-position: -10px -39px;
 }
 .network__item .icon--ml::after{
   content: "";
   width: 12px; 
   height: 9px;
-  background: url('../../sprites/icons/icons_netw.png') -45px -10px;
+  background-position: -45px -10px;
 }
 .network .icon:hover{
   background: #f89513;

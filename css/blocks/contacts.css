@@ -1,6 +1,9 @@
 .contacts{
   font-style: normal;
   font-family: 'Open Sans';
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .contacts__phone{
   color: #fff;
@@ -20,9 +23,28 @@
   
   text-align: right;
 }
+.dropdown{
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  font-family: 'Open Sans';
+  line-height: 1.5;
+  text-align: center;
+  padding: 50px 20x;
+}
+.dropdown:hover .dropdown__menu{
+display: block;
+}
+.dropdown__menu{
+  position: absolute;
+  background: white;
+  top: 100%;
+  display: none;
+  color: black;
+}
 .contacts__hours:hover{
   color: #fff;
 }
-.contacts__hours title{
-  color: rgba(248, 149, 19, 0.7);
+.dropdown__item:nth-child(1){
+  color: #f89513;
 }
