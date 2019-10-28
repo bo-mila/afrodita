@@ -8,13 +8,12 @@
 }
 .contacts__phone{
   color: #fff;
-  
   font-size: 21px;
   font-weight: 700;
   font-stretch: normal;
   text-decoration: none;
   line-height: 1.4;
- margin-bottom;: 60px;
+  margin-bottom: 10px;
  }
 
 .dropdown{
@@ -35,19 +34,21 @@
   text-decoration: underline;
 }
 .dropdown:hover .dropdown__menu{
-left: 0;
+left: -11px;
 opacity: 1;
 }
 .dropdown__menu{
   background: white;
   position: absolute;
-  top: 256%;
+  top: 220%;
   left: -9999%;
   opacity: 0;
   transition: opacity .4s;
   color: black;
   width: 183px;
  padding: 10px;
+ box-shadow: 0px 0px 14px #d3dae4;
+ border-radius: 7px;
 }
 .contacts__hours:hover{
   color: #fff;
@@ -67,15 +68,15 @@ text-align: center;
   content: "";
   display: block;
   position: absolute;
-  top: -35px;
-    right: 15px;
+  top: -24px;
+   right: 0;
  height: 0;
  width: 0;
  text-align: right;
-  border: 20px solid transparent;
+  border: 15px solid transparent;
   border-right-color: white;
   border-bottom-color: white;
-  border-right-width: 30px;
+  border-right-width: 20px;
    
     border-bottom-width: 12px;
    
