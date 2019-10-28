@@ -1,4 +1,4 @@
-.contacts{
+.contacts {
   font-style: normal;
   font-family: 'Open Sans';
   display: flex;
@@ -6,81 +6,82 @@
   justify-content: flex-end;
   text-align: right;
 }
-.contacts__phone{
+.contacts__phone {
   color: #fff;
   font-size: 21px;
-  font-weight: 700;
+  font-weight: 600;
   font-stretch: normal;
   text-decoration: none;
-  line-height: 1.4;
-  margin-bottom: 10px;
- }
-
-.dropdown{
+  margin-bottom: 2px;
+}
+.dropdown {
   position: relative;
   display: inline-block;
   font-size: 14px;
   font-family: 'Open Sans';
-  line-height: 1.5;
   list-style: none;
-  
-  
 }
-.dropdown__link{
+.dropdown__link {
   display: inline-block;
   color: rgba(248, 149, 19, 0.7);
   font-size: 14px;
-  font-weight: bolder;
+  font-weight: bold;
   text-decoration: underline;
 }
-.dropdown:hover .dropdown__menu{
-left: -11px;
+.dropdown:hover .dropdown__menu {
+left: 9px;
 opacity: 1;
 }
-.dropdown__menu{
+.dropdown__menu {
   background: white;
   position: absolute;
-  top: 220%;
+  top: 236%;
   left: -9999%;
   opacity: 0;
   transition: opacity .4s;
   color: black;
-  width: 183px;
- padding: 10px;
- box-shadow: 0px 0px 14px #d3dae4;
- border-radius: 7px;
+  font-size: 12px;
+  width: 160px;
+  padding: 10px;
+  box-shadow: 0px 0px 14px -3px #131415;;
+  border-radius: 7px;
 }
-.contacts__hours:hover{
+.contacts__hours:hover {
   color: #fff;
 }
-.dropdown__list{
-  
-  
+.dropdown__list {  
   overflow: hidden;
 }
-.dropdown__item:nth-child(1){
+.dropdown__item:nth-child(1) {
   color: #f89513;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
-.dropdown__item{
+.dropdown__item {
 text-align: center;
 }
-.dropdown__menu::after{
+.dropdown__menu::before {
   content: "";
   display: block;
   position: absolute;
   top: -24px;
-   right: 0;
- height: 0;
- width: 0;
- text-align: right;
+  right: 0;
+  height: 40px;
+  width: 160px;
+}
+.dropdown__menu::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -24px;
+  right: 0;
+  height: 0;
+  width: 0;
+  text-align: right;
   border: 15px solid transparent;
   border-right-color: white;
   border-bottom-color: white;
   border-right-width: 20px;
-   
-    border-bottom-width: 12px;
-   
-
- 
+  border-bottom-width: 12px;
 }
 
