@@ -17,24 +17,52 @@
  .networklist{
    display: flex;
    flex-direction: row;
-   justify-content: center;
+   justify-content: space-around;
+   width: 85%;
+   margin: 0 auto;
 
  }
-.network__item{
+ .network__ref .icon{
   position: relative;
-  display: inline-block;
+  background-color: #fff;
   width: 20px;
   height: 20px;
-  background: #fff;
   border-radius: 50%;
-  
 }
-.network__logo{
+  .network__item .icon::after{
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  content: "";
 }
-.network__item:hover{
+.network__item .icon--vk::after{
+  width: 12px; 
+  height: 7px;
+  background: url('../../sprites/icons/icons_netw.png') -41px -39px;
+}
+.network__item .icon--fb::after{
+  width: 6px; 
+  height: 13px;
+  background: url('../../sprites/icons/icons_netw.png') -77px -10px;
+}
+.network__item .icon--gl::after{
+  width: 15px; 
+  height: 9px;
+  background: url('../../sprites/icons/icons_netw.png')  -10px -10px;
+}
+.network__item .icon--tw::after{
+  content: "";
+  width: 11px; 
+  height: 9px;
+  background: url('../../sprites/icons/icons_netw.png') -10px -39px;
+}
+.network__item .icon--ml::after{
+  content: "";
+  width: 12px; 
+  height: 9px;
+  background: url('../../sprites/icons/icons_netw.png') -45px -10px;
+}
+.network .icon:hover{
   background: #f89513;
 }
