@@ -10,33 +10,41 @@
   letter-spacing: normal;
   color: #221f1f;
   text-decoration: none;
+  width: 93%;
 }
 .pagination__display{
    display: flex;
+   color: #656464;
   font-weight: 400;
   text-align: center;
   margin-right: 16px;
-}
+  line-height: 1.5;
+ }
 .pagination__nav{
   display: inline-block;
   text-align: center;
 }
 .pagelist{
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 .pagelist__item{
   display: inline-block;
+  margin: 0 auto;
   
 }
 .pagelist__item:last-child{
   margin-right: 0;
+}
+.pagelist__item:hover .pagelist__link{
+  color: #f89513;
 }
 .pagepoint{
   height: 23px;
   width: 23px;
   background: #fff;
   border-radius: 7%;
+  margin: 0 auto;
 }
 .pagelist__link,.page-prew,.page-next{
   color: #000000;
@@ -58,8 +66,12 @@ color: #f89513;
   line-height: 1.5;
   letter-spacing: normal;
 }
-
-
 .page-prew{
-  margin-right: 12px;
+  margin-right: 10px;
+}
+.page-prew:hover{
+  color: #f89513;
+}
+.page-next:hover{
+  color: #f89513;
 }
