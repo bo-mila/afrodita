@@ -3,11 +3,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 25%;
-  margin-right: 24px;
+  width: 24%;
+  margin-right: 17px;
+  padding-top: 22px;
 }
 .nav--reviews{
   padding-left: 77px;
-  padding-top: 41px;
-  padding-bottom: 24px;
+  padding-bottom: 6px;
+  margin-bottom: 58px;
 }

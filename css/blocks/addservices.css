@@ -4,11 +4,12 @@
   font-family: 'Open Sans';
   color: #ffffff;
   background: #131415;
-  margin-bottom: 30px;
+  margin-bottom: 31px;
   font-size: 18px;
   line-height: 1.67;
   font-weight: 300;
   font-style: normal;
+  width: 99%;
 }
 .addservices::after{
   content: "";
@@ -22,8 +23,7 @@
 .addservices__container{
   margin: 0 auto;
   text-align: center;
-  
-  padding: 30px 26px;
+  padding: 21px 32px;
 }
 .addservices__container span{
   color: #f89513;

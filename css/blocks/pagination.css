@@ -12,6 +12,9 @@
   text-decoration: none;
   width: 93%;
 }
+.pagination--revews{
+  width: 64%;
+}
 .pagination__display{
    display: flex;
    color: #656464;

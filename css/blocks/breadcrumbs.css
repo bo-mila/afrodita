@@ -3,6 +3,10 @@
   margin-bottom: 24px;
   text-align: left;
 }
+.breadcrumbs--reviews {
+  margin-bottom: 22px;
+  width: 100%;
+}
 
 .breadcrumbs__item {
   display: inline-block;
