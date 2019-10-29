@@ -54,6 +54,9 @@
   resize: vertical;
   width: 107%;
 }
+.form__input--textarea:focus{
+  border-color: #f89513;
+}
 .form__question-title{
   margin-bottom: 7px;
 }
@@ -118,4 +121,8 @@ label:last-child .choose__answer{
   height: 48px;
   font-size: 12px;
   font-weight: bold;
+  transition: .3s;
+}
+.form__buttons button:hover{
+  background: #f89513;
 }
