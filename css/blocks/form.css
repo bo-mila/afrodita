@@ -32,11 +32,11 @@
 }
 .form__input{
   width: 118%;
-  border: none;
   background: #fff;
   border-radius: 3px;
   padding: 12px 9px;
   border: 1px solid transparent;
+  outline: none;
 }
 .form__input::placeholder{
   color: rgba(34, 31, 31, 0.5);
@@ -53,10 +53,12 @@
   height: 90px;
   resize: vertical;
   width: 107%;
+  border: 1px solid transparent;
+  outline: none;
 }
 .form__input--textarea:focus{
   border-color: #f89513;
-}
+ }
 .form__question-title{
   margin-bottom: 7px;
 }
