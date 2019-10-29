@@ -3,7 +3,8 @@
   margin-bottom: 68px;
 }
 .container--reviews{
-  width: 868px;
+  width: 104%;
+  margin-bottom: 60px;
  
 }
 .reviews__tittle{
@@ -17,8 +18,11 @@
   text-align: left;
   color: #221f1f;
   margin: 0;
-  margin-bottom:50px;
+  margin-bottom: 42px;
 }
 .reviews__list{
-  margin-bottom: 47px;
+  margin-bottom: 8px;
+}
+.reviews__list .list__item{
+  padding-bottom: 31px;
 }

@@ -3,12 +3,18 @@
 @import url('./layout/normalize.css');
 @import url('./layout/base.css');
 @import url('./blocks/header.css');
-@import url('./blocks/header.css');
+@import url('./blocks/pagecontent__container.css');
+@import url('./blocks/main-content.css');
+@import url('./blocks/description.css');
 @import url('./blocks/logo.css');
 @import url('./blocks/sidebar.css');
+@import url('./blocks/sidebar--main.css');
+@import url('./blocks/sidebar--reviews.css');
+@import url('./blocks/sidebar--services.css');
 @import url('./blocks/contacts.css');
 @import url('./blocks/pagecontent.css');
 @import url('./blocks/main-desc.css');
+@import url('./blocks/index.css');
 @import url('./blocks/slogan.css');
 @import url('./blocks/features.css');
 @import url('./blocks/news__tittle.css');
@@ -27,7 +33,7 @@
 @import url('./blocks/pagination.css');
 @import url('./blocks/footer.css');
 @import url('./blocks/withlove.css');
-@import url('./blocks/footer__netw.css');
+@import url('./blocks/netw.css');
 
 
 

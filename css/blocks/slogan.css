@@ -1,10 +1,8 @@
 .slogan{
   position: relative;
-  height: 544px;
+  height: 486px;
+  padding-left: 12px;
 }
 .slogan__img{
-  position: absolute;
-  margin: 0;
-  left: 50%;
-  transform: translate(-50%);
+  
 }

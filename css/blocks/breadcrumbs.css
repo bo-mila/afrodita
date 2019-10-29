@@ -1,7 +1,11 @@
 .breadcrumbs {
   margin: 0 auto;
-  margin-bottom: 28px;
+  margin-bottom: 24px;
   text-align: left;
+}
+.breadcrumbs--reviews {
+  margin-bottom: 22px;
+  width: 100%;
 }
 
 .breadcrumbs__item {
@@ -22,8 +26,10 @@
 
 .breadcrumbs__item-link {
   font-size: 14px;
+  font-family: 'Open Sans';
   font-weight: 300;
   font-style: italic;
+  line-height: 1.29;
   color: rgba(248, 149, 19, 0.8);
 }
 
@@ -31,4 +37,9 @@
   color: rgba(34, 31, 31, 0.8);
   opacity: .8;
   text-decoration: none;
+  
+  
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(34, 31, 31, 0.8);
 }

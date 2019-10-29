@@ -1,9 +1,11 @@
 .topnews{
-  /*position: relative;
-  display: inline-block;
-  vertical-align: top;*/
-  width: 15%;
   font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 47px;
 }
 .topnews__text{
   font-family: 'Open Sans';
@@ -12,7 +14,7 @@
   font-stretch: normal;
   line-height: 1.75;
   letter-spacing: 2.4px;
-  text-align: center;
+  margin: 0 auto;
   color: #221f1f;
 }
 .topnews__month{
@@ -22,12 +24,13 @@
   font-stretch: normal;
   line-height: 1.75;
   letter-spacing: 2.4px;
-  text-align: center;
+  margin: 0 auto;
   color:  rgba(34, 31,31,.5);
   margin-bottom: 18px;
 }
 .topnewspic__item{
   margin-bottom: 22px;
+  width: 106%;
 }
 .topnewspic__item:last-child{
   margin-bottom: 0;

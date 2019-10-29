@@ -1,0 +1,14 @@
+.sidebar--reviews{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 24%;
+  margin-right: 17px;
+  padding-top: 22px;
+}
+.nav--reviews{
+  padding-left: 77px;
+  padding-bottom: 6px;
+  margin-bottom: 58px;
+}
